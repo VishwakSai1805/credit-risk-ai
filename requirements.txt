@@ -1,0 +1,14 @@
+# --- Web Application Framework ---
+streamlit       # Creates the Dashboard/Website instantly (No HTML/CSS needed)
+
+# --- Data Manipulation ---
+pandas          # Handles the tables (DataFrames) and Excel/CSV data
+numpy           # Handles the heavy math and number crunching
+
+# --- Machine Learning (The Brain) ---
+scikit-learn    # Contains the Random Forest algorithm and accuracy metrics
+joblib          # Saves/Loads the trained model (.pkl files) so we don't retrain every time
+
+# --- Document Processing (The "Advanced" Track) ---
+pdfplumber      # Reads the uploaded PDF Bank Statements to extract text
+reportlab       # Generates the dummy PDF for testing (The "Fake Bank Statement" script)
